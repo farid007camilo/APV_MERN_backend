@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 
-/* se instalo nodemailer para el envio de emails, tambie cree una cuenta en mailtrap para hacer las pruebas de desarrollo de envio de emails */
+/* se instalo nodemailer para el envio de emails, tambien cree una cuenta en mailtrap para hacer las pruebas de desarrollo de envio de emails */
 
 //configuramos las credenciales en el archivo .env y las usamos en la funcion de autenticacion de mailtrap
 const emailregistro = async (datos) => {
